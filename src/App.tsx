@@ -8,7 +8,7 @@ import AboutPage from './components/Pages/About/About';
 
 const App: React.FC = () => {
   return (
-    <Router>
+    <Router basename='/GravisDocs'>
       <NavBar />
       <Routes>
         <Route path="/" element={<HomePage />} />
