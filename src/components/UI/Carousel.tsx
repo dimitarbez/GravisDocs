@@ -51,11 +51,11 @@ const Carousel: React.FC = () => {
   };
 
   return (
-    <div className="relative w-full">
+    <div className="relative w-full h-full sm:h-auto">
       <Slider {...settings}>
         {images.map((image, index) => (
           <div key={index}>
-            <img src={image} alt={`Slide ${index}`} className="w-full object-cover h-auto" style={{ maxHeight: '60vh' }} />
+            <img src={image} alt={`Slide ${index}`} className="w-full object-cover h-full sm:h-auto" style={{ maxHeight: '60vh' }} />
           </div>
         ))}
       </Slider>
@@ -67,6 +67,7 @@ const Carousel: React.FC = () => {
       </div>
     </div>
   );
+  
 };
 
 export default Carousel;

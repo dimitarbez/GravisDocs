@@ -12,7 +12,7 @@ const HomePage: React.FC = () => {
       <div className="container mx-auto p-8">
         <section className="mb-8">
           <h2 className="text-2xl font-bold mb-4">Features</h2>
-          <div className="grid grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             <div className="bg-gray-200 p-4 rounded">
               <h3 className="font-bold">Modularity</h3>
               <p>Build your robot as you need with our easy-to-connect modules.</p>

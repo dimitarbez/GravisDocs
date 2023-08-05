@@ -12,21 +12,19 @@ const NavBar: React.FC = () => {
 
   return (
     <nav className="bg-gray-800">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-0 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
-            <div className="hidden md:block">
-              <div className="ml-10 flex items-baseline space-x-4">
-                <Link to="/" className={getClassName('/')}>
-                  Home
-                </Link>
-                <Link to="/about" className={getClassName('/about')}>
-                  About
-                </Link>
-                <Link to="/make" className={getClassName('/make')}>
-                  Make
-                </Link>
-              </div>
+            <div className="ml-10 flex items-baseline space-x-4">
+              <Link to="/" className={getClassName('/')}>
+                Home
+              </Link>
+              <Link to="/about" className={getClassName('/about')}>
+                About
+              </Link>
+              <Link to="/make" className={getClassName('/make')}>
+                Make
+              </Link>
             </div>
           </div>
         </div>
