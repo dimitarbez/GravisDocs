@@ -23,7 +23,7 @@ const NavBar: React.FC = () => {
                 <Link to="/about" className={getClassName('/about')}>
                   About
                 </Link>
-                <Link to="/videos" className={getClassName('/make')}>
+                <Link to="/make" className={getClassName('/make')}>
                   Make
                 </Link>
               </div>
