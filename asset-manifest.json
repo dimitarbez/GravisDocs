@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/GravisDocs/static/css/main.aec1f142.css",
-    "main.js": "/GravisDocs/static/js/main.85d979d0.js",
+    "main.js": "/GravisDocs/static/js/main.3f15d012.js",
     "static/js/787.83a287ae.chunk.js": "/GravisDocs/static/js/787.83a287ae.chunk.js",
     "index.html": "/GravisDocs/index.html",
     "main.aec1f142.css.map": "/GravisDocs/static/css/main.aec1f142.css.map",
-    "main.85d979d0.js.map": "/GravisDocs/static/js/main.85d979d0.js.map",
+    "main.3f15d012.js.map": "/GravisDocs/static/js/main.3f15d012.js.map",
     "787.83a287ae.chunk.js.map": "/GravisDocs/static/js/787.83a287ae.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.aec1f142.css",
-    "static/js/main.85d979d0.js"
+    "static/js/main.3f15d012.js"
   ]
 }
