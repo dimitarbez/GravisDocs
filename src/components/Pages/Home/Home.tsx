@@ -1,30 +1,39 @@
 import Carousel from '../../UI/Carousel';
+import Card from '../../UI/Card';
 import GravisSection from './Sections/GravisSection';
 import React from 'react';
+
+import mbotsGif from '../../../images/Marketing_Bots_Promo_Video.gif';
+import image1 from '../../../images/gravis_chassis_render_occlusion.jpg';
+import image2 from '../../../images/gravis_chassis_render.jpg';
+import image3 from '../../../images/20230520_091150.jpg';
+import image4 from '../../../images/IMG_20221216_152744_1.jpg';
+import image5 from '../../../images/IMG_20230515_124545_598.jpg';
+
+const images = [image1, image2, image3, image4, image5];
 
 const HomePage: React.FC = () => {
   return (
     <React.Fragment>
       <header className="text-center mb-8 w-full">
-        <Carousel />
+        <Carousel
+          images={images}
+          title="Gravis Modular Robot"
+          subtitle="An open-source, modular robot for researchers, educators, and hobbyists."
+          authorName="Dimitar Bezhanovski"
+          authorLink="https://www.linkedin.com/in/dimitar-bezhanovski/"
+          actionLink="/about"
+          actionText="Learn More"
+        />
       </header>
 
       <div className="container mx-auto p-8">
         <section className="mb-8">
           <h2 className="text-2xl font-bold mb-4">Features</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            <div className="bg-gray-200 p-4 rounded">
-              <h3 className="font-bold">Modularity</h3>
-              <p>Build your robot as you need with our easy-to-connect modules.</p>
-            </div>
-            <div className="bg-gray-200 p-4 rounded">
-              <h3 className="font-bold">Open Source</h3>
-              <p>Contribute, modify and share. Join our community of builders.</p>
-            </div>
-            <div className="bg-gray-200 p-4 rounded">
-              <h3 className="font-bold">Educational</h3>
-              <p>Perfect for learning robotics, programming, and engineering principles.</p>
-            </div>
+            <Card title="Modularity" description="Build your robot as you need with our easy-to-connect modules." imageUrl={mbotsGif} />
+            <Card title="Open Source" description="Contribute, modify and share. Join our community of builders." imageUrl="path/to/image2.jpg" />
+            <Card title="Educational" description="Perfect for learning robotics, programming, and engineering principles." imageUrl={mbotsGif} />
           </div>
         </section>
 
