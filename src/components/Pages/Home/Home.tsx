@@ -4,6 +4,8 @@ import GravisSection from './Sections/GravisSection';
 import React from 'react';
 
 import mbotsGif from '../../../images/Marketing_Bots_Promo_Video.gif';
+import wiredUpPic from '../../../images/wired_up.jpg';
+import explosionGif from '../../../images/robot_assembly_lower.gif'
 import image1 from '../../../images/gravis_chassis_render_occlusion.jpg';
 import image2 from '../../../images/gravis_chassis_render.jpg';
 import image3 from '../../../images/20230520_091150.jpg';
@@ -31,8 +33,8 @@ const HomePage: React.FC = () => {
         <section className="mb-8">
           <h2 className="text-2xl font-bold mb-4">Features</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            <Card title="Modularity" description="Build your robot as you need with our easy-to-connect modules." imageUrl={mbotsGif} />
-            <Card title="Open Source" description="Contribute, modify and share. Join our community of builders." imageUrl="path/to/image2.jpg" />
+            <Card title="Modularity" description="Build your robot as you need with our easy-to-connect modules." imageUrl={explosionGif} />
+            <Card title="Open Source" description="Contribute, modify and share. Join our community of builders." imageUrl={wiredUpPic} />
             <Card title="Educational" description="Perfect for learning robotics, programming, and engineering principles." imageUrl={mbotsGif} />
           </div>
         </section>

@@ -9,8 +9,8 @@ import image5 from '../../../images/IMG_20230515_124545_598.jpg';
 const About: React.FC = () => {
   return (
     <div className="container mx-auto p-4">
-      <h1 className="text-2xl text-center mb-4">About the Gravis Project</h1>
-      <div className="bg-white rounded p-6">
+      <h1 className="text-4xl text-center mb-8 mt-8 font-bold">About the Gravis Project</h1>
+      <div className="bg-white rounded p-6 ">
         <section className="mb-8">
           <h2 className="text-xl font-bold">Introduction</h2>
           <p>
@@ -20,9 +20,12 @@ const About: React.FC = () => {
         </section>
 
         <section className="mb-8">
-          <div className="grid grid-cols-2 gap-10">
-            <img src={image1} alt="Description of image 1" className="rounded shadow" />
-            <img src={image2} alt="Description of image 2" className="rounded shadow" />
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+            {[image1, image2].map((img, idx) => (
+              <div key={idx} className="rounded overflow-hidden shadow-lg">
+                <img src={img} alt={`Description of image ${idx + 1}`} className="w-full" />
+              </div>
+            ))}
           </div>
         </section>
 
@@ -39,9 +42,12 @@ const About: React.FC = () => {
         </section>
 
         <section className="mb-8">
-          <div className="grid grid-cols-2 gap-10">
-            <img src={image3} alt="Description of image 1" className="rounded shadow" />
-            <img src={image4} alt="Description of image 2" className="rounded shadow" />
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+            {[image3, image4].map((img, idx) => (
+              <div key={idx} className="rounded overflow-hidden shadow-lg">
+                <img src={img} alt={`Description of image ${idx + 3}`} className="w-full" />
+              </div>
+            ))}
           </div>
         </section>
 
@@ -60,7 +66,9 @@ const About: React.FC = () => {
 
         <section className="mb-8">
           <div className="flex justify-center">
-            <img src={image5} alt="Description of image 1" className="rounded shadow max-w-lg" />
+            <div className="rounded overflow-hidden shadow-lg max-w-lg">
+              <img src={image5} alt="Description of image 5" className="w-full" />
+            </div>
           </div>
         </section>
 
