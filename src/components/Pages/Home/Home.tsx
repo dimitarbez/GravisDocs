@@ -2,6 +2,8 @@ import Carousel from '../../UI/Carousel';
 import Card from '../../UI/Card';
 import GravisSection from './Sections/GravisSection';
 import React from 'react';
+import { useLocation } from 'react-router-dom';
+
 
 import mbotsGif from '../../../images/Marketing_Bots_Promo_Video.gif';
 import wiredUpPic from '../../../images/wired_up.jpg';
@@ -24,7 +26,7 @@ const HomePage: React.FC = () => {
           subtitle="An open-source, modular robot for researchers, educators, and hobbyists."
           authorName="Dimitar Bezhanovski"
           authorLink="https://www.linkedin.com/in/dimitar-bezhanovski/"
-          actionLink="/about"
+          actionLink="/GravisDocs/about"
           actionText="Learn More"
         />
       </header>
