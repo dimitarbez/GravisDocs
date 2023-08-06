@@ -1,27 +1,27 @@
 {
   "files": {
     "main.css": "/GravisDocs/static/css/main.52283658.css",
-    "main.js": "/GravisDocs/static/js/main.684aeeba.js",
+    "main.js": "/GravisDocs/static/js/main.41ab55f0.js",
     "static/js/787.83a287ae.chunk.js": "/GravisDocs/static/js/787.83a287ae.chunk.js",
     "static/media/robot_assembly_lower.gif": "/GravisDocs/static/media/robot_assembly_lower.a0bcc4deeec6235db6ff.gif",
     "static/media/Marketing_Bots_Promo_Video.gif": "/GravisDocs/static/media/Marketing_Bots_Promo_Video.b5b62e41ca6eb02e58f6.gif",
-    "static/media/20230520_091150.jpg": "/GravisDocs/static/media/20230520_091150.f507b8e9e487aea205ab.jpg",
-    "static/media/gravis_chassis_render_occlusion.jpg": "/GravisDocs/static/media/gravis_chassis_render_occlusion.1e41b0f9860d57a5c4a9.jpg",
-    "static/media/wired_up.jpg": "/GravisDocs/static/media/wired_up.a449141639680bf71c67.jpg",
-    "static/media/IMG_20221216_152744_1.jpg": "/GravisDocs/static/media/IMG_20221216_152744_1.5e24802538e00dcabc08.jpg",
-    "static/media/gravis_chassis_render.jpg": "/GravisDocs/static/media/gravis_chassis_render.027e8adf8c981ab557ad.jpg",
-    "static/media/IMG_20230515_124545_598.jpg": "/GravisDocs/static/media/IMG_20230515_124545_598.25d7d82602e36c3e25bf.jpg",
+    "static/media/IMG_20221216_152744_1.jpg": "/GravisDocs/static/media/IMG_20221216_152744_1.22b895a4e938482b95b2.jpg",
+    "static/media/wired_up.jpg": "/GravisDocs/static/media/wired_up.78d452e5464478fa21c5.jpg",
+    "static/media/gravis_chassis_render.jpg": "/GravisDocs/static/media/gravis_chassis_render.27e5c7c750cca4732148.jpg",
+    "static/media/gravis_chassis_render_occlusion.jpg": "/GravisDocs/static/media/gravis_chassis_render_occlusion.f5cb4cf78ace8dde0673.jpg",
+    "static/media/20230520_091150.jpg": "/GravisDocs/static/media/20230520_091150.cf2262f9e1e093dcb183.jpg",
+    "static/media/IMG_20230515_124545_598.jpg": "/GravisDocs/static/media/IMG_20230515_124545_598.5374b5880fb75c839a68.jpg",
     "static/media/slick.svg": "/GravisDocs/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/GravisDocs/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/GravisDocs/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/GravisDocs/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/GravisDocs/index.html",
     "main.52283658.css.map": "/GravisDocs/static/css/main.52283658.css.map",
-    "main.684aeeba.js.map": "/GravisDocs/static/js/main.684aeeba.js.map",
+    "main.41ab55f0.js.map": "/GravisDocs/static/js/main.41ab55f0.js.map",
     "787.83a287ae.chunk.js.map": "/GravisDocs/static/js/787.83a287ae.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.52283658.css",
-    "static/js/main.684aeeba.js"
+    "static/js/main.41ab55f0.js"
   ]
 }
