@@ -67,8 +67,8 @@ const Carousel: React.FC<CarouselProps> = ({
             <img
               src={image}
               alt={`Slide ${index}`}
-              className="w-full object-cover h-full sm:h-auto scale-150 sm:scale-100 transition-transform duration-300"
-              style={{ maxHeight: '60vh' }}
+              className="w-full object-cover h-full sm:h-auto scale-150 sm:scale-110 transition-transform duration-300"
+              style={{ minHeight: "45vh", maxHeight: "60vh" }}
             />
           </div>
         ))}
