@@ -5,7 +5,7 @@ import React from 'react';
 
 import mbotsGif from '../../../images/Marketing_Bots_Promo_Video.gif';
 import wiredUpPic from '../../../images/wired_up.jpg';
-import explosionGif from '../../../images/robot_assembly_lower.gif'
+import explosionGif from '../../../images/robot_assembly_lower.gif';
 import image1 from '../../../images/gravis_chassis_render_occlusion.jpg';
 import image2 from '../../../images/gravis_chassis_render.jpg';
 import image3 from '../../../images/20230520_091150.jpg';
@@ -30,7 +30,7 @@ const HomePage: React.FC = () => {
       </header>
 
       <div className="container mx-auto p-8">
-        <section className="mb-8">
+        <section className="mb-20">
           <h2 className="text-2xl font-bold mb-4">Features</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             <Card title="Modularity" description="Build your robot as you need with our easy-to-connect modules." imageUrl={explosionGif} />
@@ -41,6 +41,26 @@ const HomePage: React.FC = () => {
 
         <section className="mb-8">
           <GravisSection />
+        </section>
+
+        <section className="mb-8">
+          <div className="grid grid-cols-1 lg:grid-cols-3 justify-center items-center">
+            <div></div>
+            <div className="bg-white rounded shadow p-4 w-full sm:w-auto">
+              <iframe
+                width="100%"
+                height="300"
+                src="https://www.youtube.com/embed/FqFcDFMogvo"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+                className="rounded"
+              ></iframe>
+            </div>
+            <div></div>
+
+            {/* You can add more content in other columns here */}
+          </div>
         </section>
 
         <section className="mb-8">
