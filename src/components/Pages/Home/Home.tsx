@@ -2,7 +2,7 @@ import Carousel from '../../UI/Carousel';
 import Card from '../../UI/Card';
 import GravisSection from './Sections/GravisSection';
 import React from 'react';
-import { useLocation } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 
 import mbotsGif from '../../../images/Marketing_Bots_Promo_Video.gif';
@@ -17,6 +17,9 @@ import image5 from '../../../images/IMG_20230515_124545_598.jpg';
 const images = [image1, image2, image3, image4, image5];
 
 const HomePage: React.FC = () => {
+
+  const navigate = useNavigate();
+
   return (
     <React.Fragment>
       <header className="text-center mb-8 w-full">
@@ -26,7 +29,7 @@ const HomePage: React.FC = () => {
           subtitle="An open-source, modular robot for researchers, educators, and hobbyists."
           authorName="Dimitar Bezhanovski"
           authorLink="https://www.linkedin.com/in/dimitar-bezhanovski/"
-          actionLink="/GravisDocs/about"
+          actionLink={() => navigate('/about')}
           actionText="Learn More"
         />
       </header>

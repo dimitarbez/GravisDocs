@@ -9,7 +9,7 @@ type CarouselProps = {
   subtitle: string;
   authorLink?: string;
   authorName?: string;
-  actionLink?: string;
+  actionLink?: () => void;
   actionText?: string;
 };
 
@@ -85,7 +85,7 @@ const Carousel: React.FC<CarouselProps> = ({
           </p>
         )}
         {actionText && actionLink && (
-          <a href={actionLink} className="bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 transition duration-200 font-semibold">
+          <a onClick={actionLink} className="bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 transition duration-200 font-semibold">
             {actionText}
           </a>
         )}
