@@ -1,4 +1,5 @@
 import React from 'react';
+import electronicsImage from '../../../images/Gravis2.0.jpg';
 
 const Make: React.FC = () => {
   return (
@@ -46,9 +47,74 @@ const Make: React.FC = () => {
         <section className="mb-8">
           <h2 className="text-xl font-bold">Electronics</h2>
           <p>Details about the electronics, including wiring diagrams, component lists, and other relevant information.</p>
-          <a href="/electronics" className="text-blue-600 underline">
-            View Electronics Details
-          </a>
+          <img src={electronicsImage} alt="Electronics Schematic" className="mt-8" />
+          <p className="mt-8">
+            This electronic schematic represents the complete wiring and communication between various components for a robotic
+            project. Below is a detailed explanation of each component and its role:
+            <br />
+            <br />
+            <strong>Main Controllers</strong>
+            <br />
+            Arduino Mega: The primary controller managing most of the sensors and actuators.
+            <br />
+            Raspberry Pi: The secondary controller handling audio input and output, and connected via USB to the LiDAR sensor.
+            <br />
+            <br />
+            <strong>Sensors</strong>
+            <br />
+            LiDAR: Connected to the Raspberry Pi via USB for distance measurement and object recognition.
+            <br />
+            Microphone: Connected to the audio input of the Raspberry Pi for sound detection and processing.
+            <br />
+            OLED Display: Connected to the Arduino Mega via SDA and SCL for displaying information.
+            <br />
+            IR Cliff Sensors (Front and Back): Connected to the Arduino Mega to detect cliffs and prevent the robot from falling.
+            <br />
+            IR Obstacle Sensors (Front and Back): Connected to the Arduino Mega to detect obstacles in the robot's path.
+            <br />
+            MQ2 Gas Sensor: Connected to the Arduino Mega for gas detection.
+            <br />
+            IMU (Inertial Measurement Unit): Connected to the Arduino Mega via SDA and SCL for motion and orientation sensing.
+            <br />
+            DHT22 Sensor: Connected to the Arduino Mega for temperature and humidity measurement.
+            <br />
+            <br />
+            <strong>Actuators</strong>
+            <br />
+            Rear Motors (controlled by L298N motor driver): Connected to the Arduino Mega for movement control of the robot.
+            <br />
+            Front Motors (controlled by L298N motor driver): Also connected to the Arduino Mega for additional movement control.
+            <br />
+            Servos (Camera Yaw, Camera Pitch, Arm Yaw, Arm Pitch, Arm Hand): Connected to the Arduino Mega for controlling the
+            movement of the camera and robotic arm.
+            <br />
+            <br />
+            <strong>Additional Components</strong>
+            <br />
+            Speaker Amplifier: Connected to the Raspberry Pi for audio output.
+            <br />
+            Front and Back Lights: Connected to the Arduino Mega to provide illumination and signaling.
+            <br />
+            Battery Measurement Circuit: Connected to the Arduino Mega to monitor the battery voltage.
+            <br />
+            <br />
+            <strong>Power Supply</strong>
+            <br />
+            The system is powered by a 12V battery, with a 5V regulator providing power to the Arduino Mega and other 5V
+            components.
+            <br />
+            <br />
+            <strong>Wiring Details</strong>
+            <br />
+            USB Connections: LiDAR to Raspberry Pi.
+            <br />
+            Audio Connections: Microphone to Raspberry Pi audio input, Raspberry Pi audio output to Speaker Amp.
+            <br />
+            Digital and Analog Pins: Various sensors and actuators are connected to the appropriate digital and analog pins on the
+            Arduino Mega.
+            <br />
+            Power and Ground Connections: Ensured for all components to maintain proper operation.
+          </p>
         </section>
       </div>
     </div>

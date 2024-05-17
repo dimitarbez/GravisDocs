@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import styles from './NavBar.module.css'; // Importing the CSS module
 
 const NavBar: React.FC = () => {
   const location = useLocation();
@@ -12,21 +13,17 @@ const NavBar: React.FC = () => {
 
   return (
     <nav className="bg-gray-800">
-      <div className="max-w-7xl mx-auto px-0 sm:px-4 lg:px-8"> {/* Adjusted the padding here */}
-        <div className="flex items-center justify-between h-16">
-          <div className="flex items-center">
-            <div className="ml-10 flex items-baseline space-x-4">
-              <Link to="/" className={getClassName('/')}>
-                Home
-              </Link>
-              <Link to="/about" className={getClassName('/about')}>
-                About
-              </Link>
-              <Link to="/make" className={getClassName('/make')}>
-                Make
-              </Link>
-            </div>
-          </div>
+      <div className="flex items-center">
+        <div className="ml-10 flex items-baseline space-x-4">
+          <Link to="/" className={`${getClassName('/')} ${styles.noOutline}`}>
+            Home
+          </Link>
+          <Link to="/about" className={`${getClassName('/about')} ${styles.noOutline}`}>
+            About
+          </Link>
+          <Link to="/make" className={`${getClassName('/make')} ${styles.noOutline}`}>
+            Make
+          </Link>
         </div>
       </div>
     </nav>
