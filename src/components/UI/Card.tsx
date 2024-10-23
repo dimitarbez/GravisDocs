@@ -1,26 +1,27 @@
-import React from 'react';
+// src/components/UI/Card.tsx
 
-const Card: React.FC<{
+import React from 'react';
+import { motion } from 'framer-motion';
+
+interface CardProps {
   title: string;
   description: string;
   imageUrl: string;
-  linkUrl?: string;
-}> = ({ title, description, imageUrl, linkUrl }) => {
+}
+
+const Card: React.FC<CardProps> = ({ title, description, imageUrl }) => {
   return (
-    <div className="max-w-sm rounded overflow-hidden shadow-lg bg-white">
-      <img className="w-full h-48 object-cover" src={imageUrl} alt={title} />
-      <div className="px-6 py-4">
-        <div className="font-bold text-xl mb-2">{title}</div>
-        <p className="text-gray-700 text-base">{description}</p>
+    <motion.div
+      className="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden"
+      whileHover={{ scale: 1.05, boxShadow: '0px 10px 30px rgba(0,0,0,0.2)' }}
+      transition={{ type: 'spring', stiffness: 300 }}
+    >
+      <img src={imageUrl} alt={title} className="w-full h-48 object-cover" />
+      <div className="p-6">
+        <h3 className="text-2xl font-semibold text-gray-800 dark:text-gray-200 mb-2">{title}</h3>
+        <p className="text-gray-600 dark:text-gray-400">{description}</p>
       </div>
-      {linkUrl && (
-        <div className="px-6 pt-4 pb-2">
-          <a href={linkUrl} className="text-blue-500 hover:text-blue-700 underline">
-            Learn More
-          </a>
-        </div>
-      )}
-    </div>
+    </motion.div>
   );
 };
 
