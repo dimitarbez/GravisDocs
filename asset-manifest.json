@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.9b7dd2a8.css",
-    "main.js": "/static/js/main.c02c72c9.js",
-    "static/js/787.83a287ae.chunk.js": "/static/js/787.83a287ae.chunk.js",
-    "static/media/robot_assembly_lower.gif": "/static/media/robot_assembly_lower.a0bcc4deeec6235db6ff.gif",
-    "static/media/Marketing_Bots_Promo_Video.gif": "/static/media/Marketing_Bots_Promo_Video.b5b62e41ca6eb02e58f6.gif",
-    "static/media/IMG_20221216_152744_1.jpg": "/static/media/IMG_20221216_152744_1.22b895a4e938482b95b2.jpg",
-    "static/media/wired_up.jpg": "/static/media/wired_up.78d452e5464478fa21c5.jpg",
-    "static/media/gravis_chassis_render.jpg": "/static/media/gravis_chassis_render.27e5c7c750cca4732148.jpg",
-    "static/media/gravis_chassis_render_occlusion.jpg": "/static/media/gravis_chassis_render_occlusion.f5cb4cf78ace8dde0673.jpg",
-    "static/media/20230520_091150.jpg": "/static/media/20230520_091150.cf2262f9e1e093dcb183.jpg",
-    "static/media/IMG_20230515_124545_598.jpg": "/static/media/IMG_20230515_124545_598.5374b5880fb75c839a68.jpg",
-    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
-    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
-    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
-    "index.html": "/index.html",
-    "main.9b7dd2a8.css.map": "/static/css/main.9b7dd2a8.css.map",
-    "main.c02c72c9.js.map": "/static/js/main.c02c72c9.js.map",
-    "787.83a287ae.chunk.js.map": "/static/js/787.83a287ae.chunk.js.map"
+    "main.css": "/GravisDocs/static/css/main.d4581ae8.css",
+    "main.js": "/GravisDocs/static/js/main.aaeb7bc2.js",
+    "static/js/787.83a287ae.chunk.js": "/GravisDocs/static/js/787.83a287ae.chunk.js",
+    "static/media/robot_assembly_lower.gif": "/GravisDocs/static/media/robot_assembly_lower.a0bcc4deeec6235db6ff.gif",
+    "static/media/Marketing_Bots_Promo_Video.gif": "/GravisDocs/static/media/Marketing_Bots_Promo_Video.b5b62e41ca6eb02e58f6.gif",
+    "static/media/IMG_20221216_152744_1.jpg": "/GravisDocs/static/media/IMG_20221216_152744_1.22b895a4e938482b95b2.jpg",
+    "static/media/wired_up.jpg": "/GravisDocs/static/media/wired_up.78d452e5464478fa21c5.jpg",
+    "static/media/gravis_chassis_render.jpg": "/GravisDocs/static/media/gravis_chassis_render.27e5c7c750cca4732148.jpg",
+    "static/media/gravis_chassis_render_occlusion.jpg": "/GravisDocs/static/media/gravis_chassis_render_occlusion.f5cb4cf78ace8dde0673.jpg",
+    "static/media/20230520_091150.jpg": "/GravisDocs/static/media/20230520_091150.cf2262f9e1e093dcb183.jpg",
+    "static/media/IMG_20230515_124545_598.jpg": "/GravisDocs/static/media/IMG_20230515_124545_598.5374b5880fb75c839a68.jpg",
+    "static/media/slick.svg": "/GravisDocs/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/GravisDocs/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/GravisDocs/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/GravisDocs/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/GravisDocs/index.html",
+    "main.d4581ae8.css.map": "/GravisDocs/static/css/main.d4581ae8.css.map",
+    "main.aaeb7bc2.js.map": "/GravisDocs/static/js/main.aaeb7bc2.js.map",
+    "787.83a287ae.chunk.js.map": "/GravisDocs/static/js/787.83a287ae.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9b7dd2a8.css",
-    "static/js/main.c02c72c9.js"
+    "static/css/main.d4581ae8.css",
+    "static/js/main.aaeb7bc2.js"
   ]
 }
